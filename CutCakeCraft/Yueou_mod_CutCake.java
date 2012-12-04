@@ -30,7 +30,7 @@ public class Yueou_mod_CutCake {
 		cutcake = (new Yueou_BlockCutcake(1002,121)).setHardness(0.9F).setStepSound(Block.soundWoodFootstep).setBlockName("cutCake").disableStats().setRequiresSelfNotify();
 		
 		ModLoader.registerBlock(cutcake);
-		ModLoader.addName(cutcake, "\u5207");
+		ModLoader.addName(cutcake, "ÇÐ¸â");
 		
 		ModLoader.addRecipe(new ItemStack(cutcake), new Object[]
 				{
